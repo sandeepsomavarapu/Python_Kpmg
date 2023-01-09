@@ -1,0 +1,220 @@
+
+Language :
+
+	Communication  56 ,26
+
+Programming Language:
+
+		POP               OOP
+B,BCPL,C....			Java,python,.net......
+
+
+		Performance			inheritance,polymorphisam
+		Security			abstraction,encapsulation
+
+
+Python:guido van russam 1989
+  feb 20 1991 python 1.x
+
+				python 3.x
+
+
+
+java  53
+
+class Welcome
+{
+public static void main(String args[])
+{
+System.out.println("welcome to java");
+}
+
+}
+compaliation 
+execution JVM
+
+python 33 
+print("welcome to python")
+
+
+
+1.Functional Programming features from  C 
+
+2.oops from C++
+
+3.scripting lang  features Shell script
+
+4.module programming from modula-3
+
+		C, ABC
+
+
+Applications:
+============
+
+1)standalone or desktop  
+
+2)web applications		django,flask...URL
+
+3) DB Applications   PDBC
+
+4)IOT
+
+5)ML
+
+6)AI
+
+
+Features:
+=========
+
+	* simple
+
+	* freeware and opensource   Jython
+
+	* High level PL
+	
+	* Platform Independent    .net-->microsoft
+		
+	WORA					Windows	11    --->   windows 10
+
+						linux
+	* Dynamic Typed
+
+				String name="sandeep";//static typed
+				int age=30;
+				
+				
+				name="suresh"//dynamic typed 
+				age2=30
+
+    * Intertreted PVM
+
+	* Rich inbuilt library
+	
+	
+Idenitifiers:
+=============	
+	
+		names
+
+  a-z,A-Z
+  0-9,_
+  
+  
+  _ -->private
+  
+reserved words
+ 33
+ 
+ True,False,None
+ 
+ if,del,else,elif,for,while,........
+ 
+ 
+ 
+ DATATYPES:
+ =========
+ 
+		name
+		id
+		salary
+		address
+		gender
+		mail
+		.....
+ 
+ datatypes
+ 
+	int   int()
+	float
+	complex
+	bool  
+	str
+	Bytes  / Array 
+	range(0..3)
+	
+	list
+	tuple
+	set
+	dict
+	frozenset
+	None
+ 
+ 
+ 
+		type()
+		id()-->address of object
+		print()
+		input()
+		len()
+ 
+ typecasting
+ 
+ 
+ name="sandeep"
+	name="suresh"
+ 
+ 
+ 
+ List:
+ 
+		group of values as a single unit where duplicates are allowed and insertion order is preserved 
+ 
+ 
+	1)duplicates are allowed 
+	2)insertion order is followed
+	3)hatergenous values are allowed
+	4)growable in nature
+	5) define by using square brackets []
+	*6)list is muttable
+	
+  Tuple:
+ 
+		group of values as a single unit where duplicates are allowed and insertion order is preserved 
+ 
+ 
+	1)duplicates are allowed 
+	2)insertion order is followed
+	3)hatergenous values are allowed
+	4) define by using ()
+	*5)Tuple is imuttable
+ 
+  Set:
+ 
+		group of values as a single unit where duplicates are not allowed and insertion order is not preserved 
+ 
+ 
+	1)duplicates are not allowed 
+	2)insertion order is not followed
+	3)hatergenous values are allowed
+	4)growable in nature
+	5) define by using  {}
+	*6)set is muttable
+ 
+  FrozenSet:
+ 
+		group of values as a single unit where duplicates are not allowed and insertion order is not preserved 
+ 
+ 
+	1)duplicates are not allowed 
+	2)insertion order is not followed
+	3)hatergenous values are allowed
+	4) define by using  {()}
+	*5)frozen set is imuttable
+ 
+ 
+ Dict:
+ ======
+ employees={123:"sandeep",124:"mahesh",125:"suresh"}
+ 
+		group of objects as key value pair
+		
+		1)duplicates key is not allowed and value can be duplicate
+		2){key:value}
+		3)dict is muttable
+		4)no order
+ 
+ 
+ 
+ 
