@@ -140,9 +140,7 @@ reserved words
 	dict
 	frozenset
 	None
- 
- 
- 
+
 		type()
 		id()-->address of object
 		print()
@@ -164,10 +162,10 @@ reserved words
  
 	1)duplicates are allowed 
 	2)insertion order is followed
-	3)hatergenous values are allowed
+	3)hatergenous and homogeneous values are allowed
 	4)growable in nature
 	5) define by using square brackets []
-	*6)list is muttable
+	*6)list is muttable(append)
 	
   Tuple:
  
@@ -176,7 +174,7 @@ reserved words
  
 	1)duplicates are allowed 
 	2)insertion order is followed
-	3)hatergenous values are allowed
+	3)hetergenous and homogeneous values are allowed
 	4) define by using ()
 	*5)Tuple is imuttable
  
@@ -187,7 +185,7 @@ reserved words
  
 	1)duplicates are not allowed 
 	2)insertion order is not followed
-	3)hatergenous values are allowed
+	3)hetergenous and homogeneous values are allowed
 	4)growable in nature
 	5) define by using  {}
 	*6)set is muttable
@@ -199,7 +197,7 @@ reserved words
  
 	1)duplicates are not allowed 
 	2)insertion order is not followed
-	3)hatergenous values are allowed
+	3)hetergenous and homogeneous values are allowed
 	4) define by using  {()}
 	*5)frozen set is imuttable
  
@@ -214,6 +212,187 @@ reserved words
 		2){key:value}
 		3)dict is muttable
 		4)no order
+ None
+ 
+ Flow Control:
+ ============
+ 
+	if condition:
+		stmt1
+		stmt2
+		.....
+		
+ 
+ if condition:
+		stmt1
+		stmt2
+		.....
+ 		
+ else:		
+	
+	
+	
+	
+ Functions:
+ ============
+ 
+ Reusability
+ 
+ 
+ def sayHello:
+	return 1234
+ 
+ 
+ variables
+	2 types variables
+	local  global
+	a=123;
+ 
+ 
+ username 	kpmg
+ 
+ password   kpmg@123
+ 
+ 
+ 
+ LOGIN SUCCESS 
+ 
+ ENTER VALID CREDENTIALS
+ 
+ 
+ 
+ slice operator 
+ 
+	list2=list1[start:stop:step]
+ 
+ 
+ >>> emps=["mahesh","suresh","rajesh","naresh"]
+>>> type(emps)
+<class 'list'>
+>>> print(emps[0])
+mahesh
+>>> print(emps[-1])
+naresh
+>>> print(emps[-2])
+rajesh
+>>> print(emps[2])
+rajesh
+>>> numbers=[2,3,4,5,6,7,8,35,4,3,2]
+>>> type(numbers)
+<class 'list'>
+>>> print(numbers[2:7:2])
+[4, 6, 8]
+>>> print(numbers[2:7])
+[4, 5, 6, 7, 8]
+>>> print(numbers[2:7:3])
+[4, 7]
+>>> print(len(numbers))
+11
+>>> print(numbers.count(2))
+2
+>>> print(numbers.count(7))
+1
+>>> print(numbers.index(35))
+7
+>>> numbers.append("sandeep")
+>>> print(len(numbers))
+12
+>>> print(numbers.index("sandeep"))
+11
+>>> numbers.insert(0,"kpmg")
+>>> print(numbers.index("kpmg"))
+0
+>>> numbers.remove("sandeep")
+>>> print(len(numbers))
+12
+>>> print(numbers.index("sandeep"))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: 'sandeep' is not in list
+>>> values=["suresh","mahesh","naresh"]
+>>> values1=["hi","hello","how r u"]
+>>> values.extend(values1)
+>>> print(values)
+['suresh', 'mahesh', 'naresh', 'hi', 'hello', 'how r u']
+>>> values.remove(hi)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'hi' is not defined
+>>> values.remove("hi")
+>>> values.remove("hi")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>> values.pop("hello")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> print(values.pop());
+how r u
+>>> print(values)
+['suresh', 'mahesh', 'naresh', 'hello']
+>>> print(values.pop());
+hello
+>>> print(values.pop());
+naresh
+>>> print(values.pop());
+mahesh
+>>> print(values.pop());
+suresh
+>>> print(values)
+[]
+>>> print(values.pop());
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: pop from empty list
+>>> print(numbers)
+['kpmg', 2, 3, 4, 5, 6, 7, 8, 35, 4, 3, 2]
+>>> print(numbers.reverse())
+None
+>>> print(numbers)
+[2, 3, 4, 35, 8, 7, 6, 5, 4, 3, 2, 'kpmg']
+>>> print(numbers.index("kpmg"))
+11
+>>> numbers.pop()
+'kpmg'
+>>> print(numbers)
+[2, 3, 4, 35, 8, 7, 6, 5, 4, 3, 2]
+>>> numbers.sort()
+>>> print(numbers)
+[2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 35]
+ 
+ 
+ filter(function,sequence)
+ 
+ def isEven(x):
+	if x%2==0:
+		return true
+	else 
+		return false
+list1=[0,2,4,3,5,6,9,10,30]		
+l=list(filter(isEven,list1))
+print(l1) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
