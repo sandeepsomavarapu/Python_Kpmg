@@ -369,9 +369,119 @@ None
 		return true
 	else 
 		return false
+		
+		
 list1=[0,2,4,3,5,6,9,10,30]		
 l=list(filter(isEven,list1))
 print(l1) 
+ 
+ 
+ 
+OOPS:
+=====
+
+
+				OOPS        
+			methodology
+ OOPL
+ python
+ 
+		inheritance,polymorphisam,abstraction,encapsulation,class,object
+		
+class:
+=======
+building plan    model,blueprint 
+
+building house		object
+		
+ 
+ class is combination variables(data/data members) and memeber functions(behaviour)
+ 
+ 
+ 
+ class Helloworld:
+	age=30
+	name="sandeep"
+	def printDetails():
+		print.....
+ 
+ local 
+ 
+ global
+	instance
+	static 
+	
+	
+	self
+	
+	__init__   constructor
+ 
+ 
+ instance method  self
+ static method		@Staticmethod
+ class method  cls @Classmethod
+ 
+ 
+ 
+ 
+ Inheritance:
+ ============
+ 
+	CODE REUSABILITY-->performance 
+ 
+ 
+ class A:
+ 
+	...10
+	....
+	....
+	....
+ 
+ 
+ class B(A):
+ 
+	.....
+	.....10
+	....
+ 
+ 
+ 
+ 
+ Exception handling:
+ ===================
+ 
+ 
+ its mechanisam of converting system defined error messages into user friendly error messages  
+ 
+	
+	ORA012345 
+ 
+ 
+ 1.normal termination
+ 2.user friendly error messages
+ 
+ 
+ 
+ class Test:
+ 1
+ 2......... stop exe throw system defined error message
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+ .....
+ abnormal termination
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
