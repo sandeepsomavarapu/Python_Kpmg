@@ -545,6 +545,118 @@ select * from employees order by eadd ;
 PDBC:
 ======
  
+ ProductManagementApplication
+ 
+ 1.add product	
+					insert query
+ 2.update product  
+							pid
+							price
+ 3.delete productById
+							pid
+ 4.get productById
+							pid
+ 5.get all products
+						select * from product_info
+ 
+ 
+ class Product:
+	productId				products_info
+	productName
+	productPrice
+	productDesc
+	productCategory
+ 
+ 
+ 
+ 
+ x.py		z.py
+			import 
+			
+ 
+ py --->pyc--->intepreter 
+ 
+ 
+ 
+ file--->name message 232
+								BYTEDATA
+ pickling 		: python object --->file 
+ unpickling 	: 
+ 
+ 
+ 
+ Regular Expressions:
+ ====================
+ character classes:
+------------------
+[abc]-->either a or b or c
+
+[^abc]--> other than a or b or c
+
+[a-z]-->any lower case alphabet symbol
+
+[A-Z]-->any upper case alphabet symbol
+
+[a-zA-Z]-->any alphabet symbol
+
+[0-9]-->any digit from 0-9
+
+[a-zA-z0-9]-->any alpha numeric character
+
+[^a-zA-z0-9]-->except alpha numeric character(special symbols)
+
+
+pre defined char classes:
+=========================== compiler will treat \ as escape char so we have to use  \\s
+
+\s-->searching for space char..
+
+\S-->except space char
+
+\d -->any digit from 0-9
+
+\D-->except digits any char
+
+\w-->any word char(alpha numeric)
+
+\W-->except word char (special symbols)
+
+.-->any char
+
+
+
+Quantifiers:
+------------- tospecify number of occurences 
+
+
+a       exactly one a
+
+a+     atelast one a
+
+a*    any number of a's including zero number also
+
+a?     atmost one a
+ RE
+ 
+ if we want to represent group strings according to some patterrn .....
+ 
+ password
+ cpassword				
+ 
+ 
+		compile() :compile a pattern into regexobj
+		finditer()
+			start()
+			end() end+1
+			group()
+ 
+ 
+ 
+		pattern=re.compile("ab")
+ 
+	matcher=pattern.finditer("ababaabbaab")
+ 
+ 
  
  
  
