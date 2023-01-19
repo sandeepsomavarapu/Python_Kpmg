@@ -658,6 +658,52 @@ a?     atmost one a
  
  
  
+ Rest URLS--->get,post,put,delete
+ python app--->								another app
+ 
+ addproduct
+ updateproduct
+ deleteProduct
+ getProduct
+ getAllProducts
+					REST
+ Java Applications	--->				Python					
+ 
+								urllib3 --->JSON
+ 
+									POSTMAN APP
+ 
+ 
+ Pandas:
+ =========
+ 
+ py -m pip install pandas
+ py -m pip install numpy
+ 
+ 
+	wes mckinney  2008
+ 
+  2022 nov 1.5.2
+ 
+ 
+ 
+ import pandas as pd
+ 
+	Series 	-->it is one dimentional array(int,string,float),index
+	
+	DataFrame-->it is two-dimentional array
+ 
+				data,rows,cloumns
+ 
+ numpy:
+ =====Arrays
+ 
+ 
+		C++
+ import numpy as np
+ 
+ np.array()--->ndarray
+ 
  
  
  
